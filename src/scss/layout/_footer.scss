@@ -13,7 +13,7 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.footer-arrow {
+.arrow2-icon {
   height: 45px;
   width: 45px;
   font-size: 24px;
@@ -25,6 +25,7 @@
   transform: translateY(-50%);
   margin: 0 auto 0 auto;
 }
+
 ul {
   list-style: none;
   font-family: $font-main;
@@ -34,10 +35,7 @@ ul {
   text-align: center;
 }
 
-.social {
-  // margin-top: 30px;
-  // margin-right: 123px;
-  // margin-left: 123px;
+.social-networks {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -45,7 +43,7 @@ ul {
   padding: 30px;
 }
 
-.final {
+.end-of-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,7 +54,7 @@ ul {
   margin-bottom: 45px;
   font-family: $font-main;
 }
-.reference {
+.we-love {
   margin-top: 5px;
   font-size: 14px;
 }
@@ -76,13 +74,13 @@ ul {
     text-align: left;
   }
 
-  .options {
+  .recommendations {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  .final {
+  .end-of-page {
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -90,7 +88,7 @@ ul {
     padding-left: 25px;
   }
 
-  .social {
+  .social-networks {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
