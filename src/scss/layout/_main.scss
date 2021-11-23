@@ -206,91 +206,70 @@ a {
   .container {
     margin-left: 40px;
     margin-right: 40px;
-
-    & .button1 {
-      margin-top: 46px;
-      width: 91px;
-    }
   }
 
-  // .reverse-order {
-  //   display: flex;
-  //   flex-direction: column-reverse;
-  // }
+  .go-button {
+      margin-top: 46px;
+      width: 91px;
+  }
 
-  .text {
+  .insomnia-text {
     margin-top: 30px;
   }
 
-  .purchase-container {
-    // display: grid;
-    // grid-template-columns: 1fr;
-    // grid-template-rows: 5fr;
+  .purchase-section {
     grid-template-areas: "subheader subheader subheader" "submain1 submain2 submain3" "subfooter subfooter subfooter";
     gap: 10px;
   }
 
-  .purchase-corpus {
-    // display: flex;
+  .purchase-text-container {
     flex-direction: row;
     justify-content: space-around;
-    // align-items: center;
     align-content: center;
   }
 
-  .reason-title {
+  .purchase-title {
     font-size: 26px;
   }
-  .reason1,
-  .reason2,
-  .reason3 {
+  .reason1-container {
     margin: 45px 32px 45px 32px;
-    h4 {
-      font-size: 24px;
-    }
-    p {
-      font-size: 20px;
-    }
   }
-  .button2-style {
+
+  .reason2-container {
+    margin: 45px 32px 45px 32px;
+  }
+
+  .reason3-container {
+    margin: 45px 32px 45px 32px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  .more-reasons-button-container {
     width: 210px;
-    // height: 45px;
     margin-bottom: 60px;
   }
 }
 
 @media all and (min-width: 1200px) {
-  .container {
+  .insomnia-section {
     margin-left: 276px;
     margin-right: 276px;
     margin-top: 40px;
     margin-bottom: 40px;
-
-    & .button1 {
-      width: 160px;
-    }
   }
 
-  .article {
+  .go-button {
+      width: 160px;
+  }
+
+  .purchase-rectangle {
     margin-left: 276px;
     margin-right: 276px;
-  }
-  .reason-title {
-    font-size: 26px;
-  }
-  .reason1,
-  .reason2,
-  .reason3 {
-    h4 {
-      font-size: 24px;
-    }
-    p {
-      font-size: 20px;
-    }
-  }
-  .button2-style {
-    width: 210px;
-    height: 45px;
-    margin-bottom: 60px;
   }
 }
